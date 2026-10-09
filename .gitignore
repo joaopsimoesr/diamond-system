@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Backups gerados pelo comando `node --filepath`
+*.bak
+
+# Segredos e configurações locais
+.env
+.env.*
+*.pem
+*.key
+*service_account*.json
+credentials*.json
+
+# Vault do Obsidian e dados reais: nunca versionar
+.obsidian/
+vault/
+*.xlsx
+*.xls
+*.csv
